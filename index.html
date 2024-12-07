@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head section remains the same -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/themes.css" />
+    <link rel="stylesheet" href="styles/sections.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body class="dark-theme">
+    <!-- Header and nav remain the same -->
+    <header>
+      <nav>
+        <div class="nav-brand">Portfolio</div>
+        <div class="nav-links">
+          <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About section remains the same -->
+      <section id="about" class="section">
+        <div class="profile-container">
+          <div class="profile-image">
+            <img src="profile.jpeg" alt="Profile Picture" id="profile-pic" />
+          </div>
+          <div class="profile-info">
+            <h1>Kartikey Roshan</h1>
+            <p class="title">Backend Developer</p>
+            <p class="bio">
+              Passionate developer with expertise in web technologies and a love
+              for creating innovative solutions.
+            </p>
+            <div class="social-icons">
+              <a href="www.github.com/shadow-dawg" class="social-icon" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/kartikey-roshan-146922169/" class="social-icon" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#" class="resume-btn">
+                <i class="fas fa-download"></i> Download Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills section remains the same -->
+      <section id="skills" class="section">
+        <h2><i class="fas fa-laptop-code"></i> Skills</h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Frontend</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <i class="fab fa-html5"></i>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS3</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-node-js"></i>
+                <span>EJS</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-server"></i> Backend</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <i class="fab fa-node-js"></i>
+                <span>Node.js</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-node-js"></i>
+                <span>Express.js</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-python"></i>
+                <span>Python</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-database"></i>
+                <span>MongoDB</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-database"></i>
+                <span>SQL</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> Tools</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <i class="fab fa-git-alt"></i>
+                <span>Git</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-npm"></i>
+                <span>NPM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Updated Projects section with links -->
+      <section id="projects" class="section">
+        <h2><i class="fas fa-code"></i> Projects</h2>
+        <div class="cards-container">
+          <div class="card">
+            <h3><i class="fas fa-leaf"></i> StudyTrack</h3>
+            <p>An AI-powered study companion webapp</p>
+            <div class="tech-stack">
+              <span><i class="fab fa-js"></i> JavaScript</span>
+              <span><i class="fab fa-node"></i> Node.js</span>
+              <span><i class="fas fa-database"></i> MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/shadow-dawg/study"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> View Code
+              </a>
+              <a href="#" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <h3><i class="fas fa-brain"></i> EazySkool</h3>
+            <p>personalised dashboard school management system</p>
+            <div class="tech-stack">
+              <span><i class="fab fa-js"></i> JavaScript</span>
+              <span><i class="fab fa-node"></i> Node.js</span>
+              <span><i class="fas fa-database"></i> MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/shadow-dawg/EazySkool"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> View Code
+              </a>
+              <a href="#" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hackathons section remains the same -->
+      <section id="hackathons" class="section">
+        <h2><i class="fas fa-trophy"></i> Hackathons</h2>
+        <div class="cards-container">
+          <div class="card">
+            <h3>BrAInwave 2024</h3>
+            <p><i class="fas fa-award"></i> Partcipants</p>
+            <p>Hackathon held in DTU, Built an AI-powered Recipie Generator WebApp</p>
+          </div>
+          <!-- <div class="card">
+            <h3>CodeFest 2023</h3>
+            <p><i class="fas fa-medal"></i> Best Innovation Award</p>
+            <p>Developed a sustainable energy monitoring system</p>
+          </div>
+        </div> -->
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
